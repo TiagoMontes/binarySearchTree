@@ -21,31 +21,31 @@ class BinarySearchTree {
         }
     }
 
-    #insertChildren(current_node, key) {
-        if(key < current_node.value) {
-            if(current_node.left === null) {
-                current_node.left = new Node(key)
+    #insertChildren(currentNode, key) {
+        if(key < currentNode.value) {
+            if(currentNode.left === null) {
+                currentNode.left = new Node(key)
             }
-            if(current_node.left !== null) {
-                this.#insertChildren(current_node.left, key)
+            if(currentNode.left !== null) {
+                this.#insertChildren(currentNode.left, key)
             }
         }
 
-        if(key > current_node.value) {
-            if(current_node.right === null) {
-                current_node.right = new Node(key)
+        if(key > currentNode.value) {
+            if(currentNode.right === null) {
+                currentNode.right = new Node(key)
             }
-            if(current_node.right !== null) {
-                this.#insertChildren(current_node.right, key)
+            if(currentNode.right !== null) {
+                this.#insertChildren(currentNode.right, key)
             }
         }
     }
 
-    inorderTraversal(node) {
+    inOrderTraversal(node) {
         if (node !== null) {
-            this.inorderTraversal(node.left)
+            this.inOrderTraversal(node.left)
             console.log(node.value)
-            this.inorderTraversal(node.right)
+            this.inOrderTraversal(node.right)
         }
     }
 }
@@ -60,7 +60,7 @@ function makeMagic() {
     let binarySearchTree = new BinarySearchTree()
 
     handleTree(binarySearchTree)
-    binarySearchTree.inorderTraversal(binarySearchTree.root)
+    binarySearchTree.inOrderTraversal(binarySearchTree.root)
 }
 
 makeMagic()
