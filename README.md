@@ -19,10 +19,4 @@ Subtree: Any node and its descendants form a subtree, which can be left or right
 
 
 <h3>Look the array [15, 10, 20, 8, 12, 17, 25, 6, 11, 16, 27] organized according to its binary tree</h3>
-        15
-       /  \
-     10    20
-    /  \   /  \
-   8   12 17   25
-  /   /   /    \
- 6   11  16    27
+
