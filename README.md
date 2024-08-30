@@ -14,4 +14,4 @@ A binary tree is a hierarchical data structure in which each node has at most tw
 
 
 <h3>Look the array [15, 10, 20, 8, 12, 17, 25, 6, 11, 16, 27] organized according to its binary tree</h3>
-![binatryTree](https://github.com/user-attachments/assets/96f00f07-a5da-4354-85a5-e51c204c2b6d)
+<img src="https://github.com/user-attachments/assets/96f00f07-a5da-4354-85a5-e51c204c2b6d"/>
